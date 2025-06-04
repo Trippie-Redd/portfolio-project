@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import type { NotesAppProps } from '../../types/desktop';
 
-// eslint-disable-next-line no-empty-pattern
+// eslint-disable-next-line no-empty-pattern (used for JetBrains editor)
 export const NotesApp = ({}: NotesAppProps) => {
     const [notes, setNotes] = useState<string>('Welcome to Notes!');
 
