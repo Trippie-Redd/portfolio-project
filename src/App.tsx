@@ -1,13 +1,7 @@
-import React from 'react';
-import Desktop from './Desktop';
-import './CSS/App.css';
+import { Desktop } from './components/Desktop';
 
 function App() {
-  return (
-    <div className="app-container">
-      <Desktop />
-    </div>
-  );
+    return <Desktop />;
 }
 
 export default App;
